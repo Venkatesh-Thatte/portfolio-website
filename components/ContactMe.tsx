@@ -9,7 +9,6 @@ type Inputs = {
   message: string;
 };
 
-type Props = {};
 
 function ContactMe({}: Props) {
   const {

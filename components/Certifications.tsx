@@ -1,7 +1,5 @@
 import React from "react";
 
-type Props = {};
-
 function Certifications({}: Props) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-transparent px-6 md:px-12 py-16 relative mt-25">
