@@ -6,7 +6,7 @@ A clean, responsive, and modern developer portfolio built with **Next.js 15**, *
 
 ## 🌐 Live Site
 
-👉 [Visit Portfolio Website](https://your-deployment-link.com)
+👉 [Visit Portfolio Website](https://portfolio-website-omega-murex.vercel.app/)
 
 ---
 
