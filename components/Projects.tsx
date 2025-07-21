@@ -22,7 +22,7 @@ const projects = [
   },
 ];
 
-function Projects({}: Props) {
+function Projects() {
   return (
     <motion.div
       initial={{ opacity: 0 }}

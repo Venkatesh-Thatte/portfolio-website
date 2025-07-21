@@ -1,6 +1,7 @@
+import Image from "next/image";
 import React from "react";
 
-function Certifications({}: Props) {
+function Certifications() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-transparent px-6 md:px-12 py-16 relative mt-25">
       <h3 className="absolute top-16 md:top-10 uppercase tracking-[15px] text-gray-500 text-xl md:text-2xl z-30">
@@ -8,11 +9,14 @@ function Certifications({}: Props) {
       </h3>
 
       <div className="bg-[#1f1f1f] mt-32  md:mt-28 p-6 md:p-10 rounded-2xl shadow-lg w-full flex flex-col md:flex-row items-center gap-8">
-        <img
-          src="/images/JS certificate.png"
-          alt="JavaScript Certificate"
-          className="w-full md:w-[50%] shadow-md object-contain"
-        />
+      <Image
+  src="/images/JS certificate.png"
+  alt="JavaScript Certificate"
+  width={500}
+  height={350}
+  className="shadow-md object-contain w-full md:w-[50%]"
+/>
+
 
         <div className="text-gray-200 text-center md:text-left space-y-4 mb-10">
           <h4 className="text-2xl font-semibold text-[#F7AB0A]">

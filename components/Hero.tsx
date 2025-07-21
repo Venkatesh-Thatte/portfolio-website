@@ -4,12 +4,14 @@ import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Hero({}: Props) {
-  const [text, count] = useTypewriter({
-    words: ["Hi, Iam Venkatesh", "Frontend developer", "<LovesToCodeMore/>"],
-    loop: true,
-    delaySpeed: 2000,
-  });
+export default function Hero() {
+  const [text] = useTypewriter({
+  words: ["Hi, I am Venkatesh", "Frontend developer", "<LovesToCodeMore/>"],
+  loop: true,
+  delaySpeed: 2000,
+});
+
+
 
   return (
     <div

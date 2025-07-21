@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 <div className="bg-[rgb(36,36,36)] text-white snap-y snap-mandatory 
 overflow-y-scroll overflow-x-hidden z-0 h-screen">
       <Head>
-        <title>Venkatesh's Portfolio</title>
+        <title>Venkatesh&apos;s Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -48,7 +48,7 @@ overflow-y-scroll overflow-x-hidden z-0 h-screen">
         <ContactMe />
       </section>
 
-      {/* <Link href="#hero">
+      <Link href="#hero">
       <footer className="sticky bottom-5 w-full cursor-pointer">
         <div className="flex items-center justify-center">
           <img 
@@ -59,7 +59,7 @@ overflow-y-scroll overflow-x-hidden z-0 h-screen">
         </div>
       </footer>
 
-      </Link> */}
+      </Link>
     </div>
 
 

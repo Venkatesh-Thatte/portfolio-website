@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
 
-function Skills({}: Props) {
+function Skills() {
   const skills = [
     {
       image: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
