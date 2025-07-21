@@ -4,42 +4,15 @@ import Skill from "./Skill";
 
 function Skills() {
   const skills = [
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/react-2.svg",
-      proficiency: "90%",
-    },
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/typescript.svg",
-      proficiency: "85%",
-    },
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg",
-      proficiency: "95%",
-    },
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg",
-      proficiency: "80%",
-    },
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/css-3.svg",
-      proficiency: "85%",
-    },
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/next-js.svg",
-      proficiency: "75%",
-    },
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/html-1.svg",
-      proficiency: "95%",
-    },
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg",
-      proficiency: "100%",
-    },
-    {
-      image: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
-      proficiency: "90%",
-    },
+    { image: "https://cdn.worldvectorlogo.com/logos/react-2.svg", proficiency: "90%" },
+    { image: "https://cdn.worldvectorlogo.com/logos/typescript.svg", proficiency: "85%" },
+    { image: "https://cdn.worldvectorlogo.com/logos/javascript-1.svg", proficiency: "95%" },
+    { image: "https://cdn.worldvectorlogo.com/logos/tailwindcss.svg", proficiency: "80%" },
+    { image: "https://cdn.worldvectorlogo.com/logos/css-3.svg", proficiency: "85%" },
+    { image: "https://cdn.worldvectorlogo.com/logos/next-js.svg", proficiency: "75%" },
+    { image: "https://cdn.worldvectorlogo.com/logos/html-1.svg", proficiency: "95%" },
+    { image: "https://cdn.worldvectorlogo.com/logos/visual-studio-code-1.svg", proficiency: "100%" },
+    { image: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg", proficiency: "90%" },
   ];
 
   return (
@@ -53,11 +26,13 @@ function Skills() {
         Skills
       </h3>
 
-      <h4 className="uppercase text-gray-400 text-sm sm:text-base tracking-wide mb-8">
-        Hover over a skill for current proficiency
-      </h4>
+      <h4 className="hidden md:block uppercase text-gray-400 text-sm sm:text-base tracking-wide mb-8 mt-10">
+  Hover over a skill for current proficiency
+</h4>
 
-      <div className="grid grid-cols-3 gap-6 sm:gap-8">
+
+
+      <div className="grid grid-cols-3 gap-6 sm:gap-10">
         {skills.map((skill, index) => (
           <Skill
             key={index}
@@ -72,5 +47,6 @@ function Skills() {
 }
 
 export default Skills;
+
 
 
