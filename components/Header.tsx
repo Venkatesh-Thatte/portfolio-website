@@ -17,7 +17,7 @@ export default function Header() {
         className="flex flex-row items-center"
       >
         <SocialIcon
-          url="https://www.linkedin.com/"
+          url="https://www.linkedin.com/in/venkatesh-thatte/"
           fgColor="gray"
           bgColor="transparent"
         />
